@@ -38,61 +38,66 @@
             // redRadioButton
             // 
             redRadioButton.AutoSize = true;
-            redRadioButton.Location = new Point(223, 102);
+            redRadioButton.BackColor = Color.Transparent;
+            redRadioButton.Location = new Point(307, 116);
             redRadioButton.Name = "redRadioButton";
             redRadioButton.Size = new Size(45, 19);
             redRadioButton.TabIndex = 0;
             redRadioButton.TabStop = true;
             redRadioButton.Text = "Red";
-            redRadioButton.UseVisualStyleBackColor = true;
+            redRadioButton.UseVisualStyleBackColor = false;
             redRadioButton.CheckedChanged += redRadioButton_CheckedChanged;
             // 
             // blueRadioButton
             // 
             blueRadioButton.AutoSize = true;
-            blueRadioButton.Location = new Point(223, 145);
+            blueRadioButton.BackColor = Color.Transparent;
+            blueRadioButton.Location = new Point(307, 159);
             blueRadioButton.Name = "blueRadioButton";
             blueRadioButton.Size = new Size(48, 19);
             blueRadioButton.TabIndex = 1;
             blueRadioButton.TabStop = true;
             blueRadioButton.Text = "Blue";
-            blueRadioButton.UseVisualStyleBackColor = true;
+            blueRadioButton.UseVisualStyleBackColor = false;
             blueRadioButton.CheckedChanged += blueRadioButton_CheckedChanged;
             // 
             // greenRadioButton
             // 
             greenRadioButton.AutoSize = true;
-            greenRadioButton.Location = new Point(223, 186);
+            greenRadioButton.BackColor = Color.Transparent;
+            greenRadioButton.Location = new Point(307, 200);
             greenRadioButton.Name = "greenRadioButton";
             greenRadioButton.Size = new Size(56, 19);
             greenRadioButton.TabIndex = 2;
             greenRadioButton.TabStop = true;
             greenRadioButton.Text = "Green";
-            greenRadioButton.UseVisualStyleBackColor = true;
+            greenRadioButton.UseVisualStyleBackColor = false;
             greenRadioButton.CheckedChanged += greenRadioButton_CheckedChanged;
             // 
             // yellowRadioButton
             // 
             yellowRadioButton.AutoSize = true;
-            yellowRadioButton.Location = new Point(223, 234);
+            yellowRadioButton.BackColor = Color.Transparent;
+            yellowRadioButton.Location = new Point(307, 248);
             yellowRadioButton.Name = "yellowRadioButton";
             yellowRadioButton.Size = new Size(59, 19);
             yellowRadioButton.TabIndex = 3;
             yellowRadioButton.TabStop = true;
             yellowRadioButton.Text = "Yellow";
-            yellowRadioButton.UseVisualStyleBackColor = true;
+            yellowRadioButton.UseVisualStyleBackColor = false;
             yellowRadioButton.CheckedChanged += yellowRadioButton_CheckedChanged;
             // 
             // purpleRadioButton
             // 
             purpleRadioButton.AutoSize = true;
-            purpleRadioButton.Location = new Point(223, 288);
+            purpleRadioButton.BackColor = Color.Transparent;
+            purpleRadioButton.Location = new Point(307, 302);
             purpleRadioButton.Name = "purpleRadioButton";
             purpleRadioButton.Size = new Size(59, 19);
             purpleRadioButton.TabIndex = 4;
             purpleRadioButton.TabStop = true;
             purpleRadioButton.Text = "Purple";
-            purpleRadioButton.UseVisualStyleBackColor = true;
+            purpleRadioButton.UseVisualStyleBackColor = false;
             purpleRadioButton.CheckedChanged += purpleRadioButton_CheckedChanged;
             // 
             // Form1

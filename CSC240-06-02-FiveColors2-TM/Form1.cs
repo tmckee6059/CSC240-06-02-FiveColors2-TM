@@ -6,7 +6,7 @@ namespace CSC240_06_02_FiveColors2_TM
     {
         public Form1()
         {
-            InitializeComponent(); 
+            InitializeComponent();
         }
 
         private void redRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -20,7 +20,7 @@ namespace CSC240_06_02_FiveColors2_TM
             {
                 this.BackColor = Color.White;
             }
-            
+
         }
 
         private void blueRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace CSC240_06_02_FiveColors2_TM
         {
             if (purpleRadioButton.Checked)
             {
-                this.BackColor= Color.Purple;
+                this.BackColor = Color.Purple;
             }
 
             else
