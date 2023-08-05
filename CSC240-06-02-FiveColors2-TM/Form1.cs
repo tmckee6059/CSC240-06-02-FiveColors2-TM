@@ -7,6 +7,7 @@ namespace CSC240_06_02_FiveColors2_TM
         public Form1()
         {
             InitializeComponent();
+            defaultRadioButton.Checked = true;
         }
 
         private void redRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -56,10 +57,15 @@ namespace CSC240_06_02_FiveColors2_TM
 
         private void resetButton_Click(object sender, EventArgs e)
         {
-            if (resetButton.Enabled = true)
+            if (resetButton.Enabled == true)
             {
-                this.BackColor = Color.White;
+                defaultRadioButton.Checked = true;
             }
+        }
+
+        private void defaultRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.White;
         }
     }
 }
