@@ -33,13 +33,14 @@
             greenRadioButton = new RadioButton();
             yellowRadioButton = new RadioButton();
             purpleRadioButton = new RadioButton();
+            resetButton = new Button();
             SuspendLayout();
             // 
             // redRadioButton
             // 
             redRadioButton.AutoSize = true;
             redRadioButton.BackColor = Color.Transparent;
-            redRadioButton.Location = new Point(307, 116);
+            redRadioButton.Location = new Point(60, 115);
             redRadioButton.Name = "redRadioButton";
             redRadioButton.Size = new Size(45, 19);
             redRadioButton.TabIndex = 0;
@@ -52,7 +53,7 @@
             // 
             blueRadioButton.AutoSize = true;
             blueRadioButton.BackColor = Color.Transparent;
-            blueRadioButton.Location = new Point(307, 159);
+            blueRadioButton.Location = new Point(60, 140);
             blueRadioButton.Name = "blueRadioButton";
             blueRadioButton.Size = new Size(48, 19);
             blueRadioButton.TabIndex = 1;
@@ -65,7 +66,7 @@
             // 
             greenRadioButton.AutoSize = true;
             greenRadioButton.BackColor = Color.Transparent;
-            greenRadioButton.Location = new Point(307, 200);
+            greenRadioButton.Location = new Point(60, 165);
             greenRadioButton.Name = "greenRadioButton";
             greenRadioButton.Size = new Size(56, 19);
             greenRadioButton.TabIndex = 2;
@@ -78,7 +79,7 @@
             // 
             yellowRadioButton.AutoSize = true;
             yellowRadioButton.BackColor = Color.Transparent;
-            yellowRadioButton.Location = new Point(307, 248);
+            yellowRadioButton.Location = new Point(60, 190);
             yellowRadioButton.Name = "yellowRadioButton";
             yellowRadioButton.Size = new Size(59, 19);
             yellowRadioButton.TabIndex = 3;
@@ -91,7 +92,7 @@
             // 
             purpleRadioButton.AutoSize = true;
             purpleRadioButton.BackColor = Color.Transparent;
-            purpleRadioButton.Location = new Point(307, 302);
+            purpleRadioButton.Location = new Point(60, 215);
             purpleRadioButton.Name = "purpleRadioButton";
             purpleRadioButton.Size = new Size(59, 19);
             purpleRadioButton.TabIndex = 4;
@@ -100,17 +101,29 @@
             purpleRadioButton.UseVisualStyleBackColor = false;
             purpleRadioButton.CheckedChanged += purpleRadioButton_CheckedChanged;
             // 
+            // resetButton
+            // 
+            resetButton.Location = new Point(60, 257);
+            resetButton.Name = "resetButton";
+            resetButton.Size = new Size(84, 23);
+            resetButton.TabIndex = 5;
+            resetButton.Text = "Reset Color";
+            resetButton.UseVisualStyleBackColor = true;
+            resetButton.Click += resetButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(255, 366);
+            Controls.Add(resetButton);
             Controls.Add(purpleRadioButton);
             Controls.Add(yellowRadioButton);
             Controls.Add(greenRadioButton);
             Controls.Add(blueRadioButton);
             Controls.Add(redRadioButton);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
@@ -123,5 +136,6 @@
         private RadioButton greenRadioButton;
         private RadioButton yellowRadioButton;
         private RadioButton purpleRadioButton;
+        private Button resetButton;
     }
 }

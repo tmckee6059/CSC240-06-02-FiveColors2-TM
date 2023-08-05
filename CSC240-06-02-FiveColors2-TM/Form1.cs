@@ -16,11 +16,6 @@ namespace CSC240_06_02_FiveColors2_TM
                 this.BackColor = Color.Red;
             }
 
-            else
-            {
-                this.BackColor = Color.White;
-            }
-
         }
 
         private void blueRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -30,10 +25,6 @@ namespace CSC240_06_02_FiveColors2_TM
                 this.BackColor = Color.Blue;
             }
 
-            else
-            {
-                this.BackColor = Color.White;
-            }
         }
 
         private void greenRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -43,10 +34,6 @@ namespace CSC240_06_02_FiveColors2_TM
                 this.BackColor = Color.Green;
             }
 
-            else
-            {
-                this.BackColor = Color.White;
-            }
         }
 
         private void yellowRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -56,10 +43,6 @@ namespace CSC240_06_02_FiveColors2_TM
                 this.BackColor = Color.Yellow;
             }
 
-            else
-            {
-                this.BackColor = Color.White;
-            }
         }
 
         private void purpleRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -69,7 +52,11 @@ namespace CSC240_06_02_FiveColors2_TM
                 this.BackColor = Color.Purple;
             }
 
-            else
+        }
+
+        private void resetButton_Click(object sender, EventArgs e)
+        {
+            if (resetButton.Enabled = true)
             {
                 this.BackColor = Color.White;
             }
