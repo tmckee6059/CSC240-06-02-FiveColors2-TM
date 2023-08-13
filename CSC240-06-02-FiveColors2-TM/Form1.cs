@@ -15,6 +15,8 @@ namespace CSC240_06_02_FiveColors2_TM
             if (redRadioButton.Checked)
             {
                 this.BackColor = Color.Red;
+                RedForm redForm = new RedForm();
+                redForm.ShowDialog();
             }
 
         }
@@ -24,6 +26,8 @@ namespace CSC240_06_02_FiveColors2_TM
             if (blueRadioButton.Checked)
             {
                 this.BackColor = Color.Blue;
+                BlueForm blueForm = new BlueForm();
+                blueForm.ShowDialog();
             }
 
         }
