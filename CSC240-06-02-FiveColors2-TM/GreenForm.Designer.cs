@@ -1,6 +1,6 @@
 ﻿namespace CSC240_06_02_FiveColors2_TM
 {
-    partial class BlueForm
+    partial class GreenForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,41 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BlueForm));
-            blueformLabel = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GreenForm));
+            greenformLabel = new Label();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // blueformLabel
+            // greenformLabel
             // 
-            blueformLabel.AutoSize = true;
-            blueformLabel.Font = new Font("Showcard Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            blueformLabel.Location = new Point(118, 39);
-            blueformLabel.Name = "blueformLabel";
-            blueformLabel.Size = new Size(237, 27);
-            blueformLabel.TabIndex = 0;
-            blueformLabel.Text = "This is a blue banana";
+            greenformLabel.AutoSize = true;
+            greenformLabel.Font = new Font("Showcard Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            greenformLabel.Location = new Point(83, 33);
+            greenformLabel.Name = "greenformLabel";
+            greenformLabel.Size = new Size(218, 27);
+            greenformLabel.TabIndex = 0;
+            greenformLabel.Text = "This is a green leaf";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(40, 110);
+            pictureBox1.Location = new Point(39, 91);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(407, 304);
+            pictureBox1.Size = new Size(302, 320);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
-            // BlueForm
+            // GreenForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(491, 450);
+            ClientSize = new Size(407, 450);
             Controls.Add(pictureBox1);
-            Controls.Add(blueformLabel);
-            Name = "BlueForm";
-            Text = "BlueForm";
+            Controls.Add(greenformLabel);
+            Name = "GreenForm";
+            Text = "GreenForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -70,7 +70,7 @@
 
         #endregion
 
-        private Label blueformLabel;
+        private Label greenformLabel;
         private PictureBox pictureBox1;
     }
 }

@@ -37,6 +37,8 @@ namespace CSC240_06_02_FiveColors2_TM
             if (greenRadioButton.Checked)
             {
                 this.BackColor = Color.Green;
+                GreenForm greenForm = new GreenForm();
+                greenForm.ShowDialog();
             }
 
         }
@@ -46,6 +48,8 @@ namespace CSC240_06_02_FiveColors2_TM
             if (yellowRadioButton.Checked)
             {
                 this.BackColor = Color.Yellow;
+                YellowForm yellowForm = new YellowForm();
+                yellowForm.ShowDialog();
             }
 
         }
@@ -55,6 +59,8 @@ namespace CSC240_06_02_FiveColors2_TM
             if (purpleRadioButton.Checked)
             {
                 this.BackColor = Color.Purple;
+                PurpleForm purpleForm = new PurpleForm();
+                purpleForm.ShowDialog();
             }
 
         }
